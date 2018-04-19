@@ -1,0 +1,32 @@
+{ 
+	"name":"3x3 field", 
+	"count":{
+		"playerA": 0,
+		"playerB": 0,
+		"remis": 0
+	},
+	"rows":[
+		{ 
+			"rowId": "A", 
+			"fields": [
+				{ "val": null },
+				{ "val": null },
+				{ "val": null }
+			] 
+		},{ 
+			"rowId": "B", 
+			"fields": [
+				{ "val": null },
+				{ "val": null },
+				{ "val": null }
+			] 
+		},{ 
+			"rowId": "C", 
+			"fields": [
+				{ "val": null },
+				{ "val": null },
+				{ "val": null }
+			] 
+		}
+	] 
+}

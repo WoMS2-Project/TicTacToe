@@ -1,0 +1,17 @@
+h1 {
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+.tictactoe {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+} 
+
+#b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8 {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+

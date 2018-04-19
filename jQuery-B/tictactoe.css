@@ -1,0 +1,38 @@
+h1 {
+  margin-left:15%; 
+  margin-right:15%;
+}
+
+.tictactoe {
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+} 
+
+#b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8 {
+  width: 200px;
+  height: 200px;
+  align-content: center;
+}
+
+.btn-field {
+	background-color: #f2f2f2;
+	border: 					none;
+	height: 					100px!important;
+	width: 						100px!important;
+	min-height: 			100px!important;
+	min-width: 				100px!important;
+	max-height: 			100px!important;
+	max-width: 				100px!important;
+	font-size: 				3em;
+	font-weight: 			bold;
+}
+
+.btn-field:hover {
+	background-color: #b9b9b9;
+	color: 						white;
+}
+
+.mark-green {
+	color: lightgreen;
+}

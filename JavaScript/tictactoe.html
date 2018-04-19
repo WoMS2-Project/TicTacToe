@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <script type ="text/javascript" src ="tictactoe.js"> </script>
+    <link rel ="stylesheet" type ="text/css" href ="tictactoe.css">
+</head>
+<body>
+<h1>TicTacToe</h1>
+<section class="tictactoe">
+	<p>Zum Spielen bitte abwechselnd in die Spielfelder klicken</p>
+    <form>
+    <table id="tab">
+        <tr>
+        <td><input type="button" id="b0" name="b0" value="     " onclick="markbox(this)"/></td>
+       <td><input type="button" id="b1" name="b1" value="     " onclick="markbox(this)"/></td>
+            <td><input type="button" id="b2" name="b2" value="     " onclick="markbox(this)"/></td>
+        </tr>
+        <tr>
+       <td><input type="button" id="b3" name="b3" value="     " onclick="markbox(this)"/></td>
+            <td><input type="button" id="b4" name="b4" value="     " onclick="markbox(this)"/></td>
+            <td><input type="button" id="b5" name="b5" value="     " onclick="markbox(this)"/></td>
+        </tr>              
+        <tr>
+       <td><input type="button" id="b6" name="b6" value="     " onclick="markbox(this)"/></td>
+            <td><input type="button" id="b7" name="b7" value="     " onclick="markbox(this)"/></td>
+            <td><input type="button" id="b8" name="b8" value="     " onclick="markbox(this)"/></td>
+        </tr>
+   </table>
+        <input type="reset" value="Neues Spiel" onclick="clear()" />
+    </form>
+</section>
+</body>
+</html>
